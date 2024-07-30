@@ -1,6 +1,6 @@
-import express from "expresss";
-import { getAllReviews, createReview } from "../Controllers/reviewController";
-import { authenticate, restrict } from "../auth/verifyToken";
+import express from "express";
+import { getAllReviews, createReview } from "../Controllers/reviewController.js";
+import { authenticate, restrict } from "../auth/verifyToken.js";
 
 const router = express.Router({mergeParams: true});
 
