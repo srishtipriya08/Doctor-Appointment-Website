@@ -6,7 +6,7 @@ import SidePanel from './SidePanel';
 import { BASE_URL } from "../../config";
 import useFetchData from "../../hooks/useFetchData";
 import Loader from '../../components/Loader/Loading';
-import Error from "../Error/Error";
+import Error from "../../components/Error/Error";
 
 const DoctorDetails = () => {
 
